@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DompetKita — Anggaran Rumah Tangga Keluarga Mahesa</title>
+  <meta name="description" content="DompetKita: situs anggaran rumah tangga untuk Keluarga Mahesa — pantau pemasukan, pengeluaran, anggaran tiap kategori, dan tabungan keluarga, semua tersimpan di perangkat Anda.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/">
+        <span class="brand-mark">Rp</span>
+        <span>
+          <span class="brand-name">DompetKita</span><br>
+          <span class="brand-sub">Anggaran Keluarga Mahesa · Batang</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Navigasi utama">
+        <a href="#/" data-route="">Beranda</a>
+        <a href="#/transaksi" data-route="transaksi">Transaksi</a>
+        <a href="#/anggaran" data-route="anggaran">Anggaran</a>
+        <a href="#/tujuan" data-route="tujuan">Tabungan</a>
+        <a href="#/laporan" data-route="laporan">Laporan</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap" id="view" aria-live="polite"></main>
+
+  <footer>
+    <p>DompetKita adalah situs demo anggaran rumah tangga untuk <strong>Keluarga Mahesa</strong> (keluarga fiktif).
+    Semua data tersimpan hanya di peramban Anda (localStorage) — tidak ada data yang dikirim ke mana pun.
+    Angka dalam Rupiah; bulan berjalan: November 2026.</p>
+    <p><a href="#/">Beranda</a> · <a href="#/transaksi">Transaksi</a> · <a href="#/anggaran">Anggaran</a> ·
+    <a href="#/tujuan">Tabungan</a> · <a href="#/laporan">Laporan</a></p>
+  </footer>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
